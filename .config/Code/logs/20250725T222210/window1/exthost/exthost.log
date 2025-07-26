@@ -1,0 +1,40 @@
+2025-07-25 22:22:12.589 [info] Extension host with pid 2524 started
+2025-07-25 22:22:12.589 [info] Skipping acquiring lock for /home/dandatran/.config/Code/User/workspaceStorage/9a7b87ce7a1d7a2da8845b41724879e9.
+2025-07-25 22:22:12.866 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-25 22:22:12.923 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onLanguage:nix'
+2025-07-25 22:22:12.990 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-25 22:22:13.178 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-25 22:22:13.183 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-25 22:22:13.251 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 22:22:13.411 [info] Eager extensions activated
+2025-07-25 22:22:13.418 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 22:22:13.420 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 22:23:32.090 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-07-25 22:56:00.361 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-25 23:04:36.089 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-25 23:04:36.422 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at z4 (/home/dandatran/.vscode/extensions/jnoortheen.nix-ide-0.4.22/dist/extension.js:44:45451)
+	at Object.DO (/home/dandatran/.vscode/extensions/jnoortheen.nix-ide-0.4.22/dist/extension.js:44:48473)
+	at QG.eb (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:11726)
+	at file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+	at Array.map (<anonymous>)
+	at QG.$ (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+	at QG.terminate (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+	at Y3.terminate (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+	at us (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+	at MessagePortMain.<anonymous> (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:356:6484)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-07-25 23:04:36.889 [info] Extension host with pid 2524 exiting with code 0
+2025-07-25 23:04:55.265 [info] Extension host with pid 9404 started
+2025-07-25 23:04:55.266 [info] Skipping acquiring lock for /home/dandatran/.config/Code/User/workspaceStorage/e26fac2d262fbc174df8887a4042d214.
+2025-07-25 23:04:55.599 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-25 23:04:56.665 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-25 23:04:56.800 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 23:04:58.211 [info] Eager extensions activated
+2025-07-25 23:04:58.273 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 23:04:58.308 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 23:05:01.707 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-25 23:05:08.801 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-25 23:05:43.349 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-25 23:05:43.973 [info] Extension host with pid 9404 exiting with code 0

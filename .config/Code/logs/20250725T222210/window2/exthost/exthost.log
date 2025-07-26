@@ -1,0 +1,40 @@
+2025-07-25 22:22:12.467 [info] Extension host with pid 2494 started
+2025-07-25 22:22:12.511 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-25 22:22:12.583 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-25 22:22:12.592 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-25 22:22:12.660 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 22:22:12.907 [info] Eager extensions activated
+2025-07-25 22:22:12.909 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 22:22:12.913 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 22:22:14.472 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-25 22:22:14.495 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at new OL (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113290)
+	at a4.U (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117901)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115395)
+	at nb.loadCertificates (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:70667)
+	at Object.loadAdditionalCertificates (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:22848)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:723:53
+	at Generator.next (<anonymous>)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:722:43
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:724:16
+	at Generator.next (<anonymous>)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at getOrLoadAdditionalCertificates (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:720:12)
+	at addCertificatesToOptionsV1 (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:699:9)
+	at resolveProxyWithRequest (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:114:9)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:77
+	at new Promise (<anonymous>)
+	at PacProxyAgent.resolveP [as resolver] (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:54)
+	at PacProxyAgent.<anonymous> (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:74:37)
+	at Generator.next (<anonymous>)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at PacProxyAgent.connect (/nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:56:16)
+	at /nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/node_modules/agent-base/dist/index.js:132:30
+2025-07-25 22:22:14.495 [info] Extension host with pid 2494 exiting with code 0

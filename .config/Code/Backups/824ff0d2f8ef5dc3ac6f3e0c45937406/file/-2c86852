@@ -1,0 +1,34 @@
+file:///etc/nixos/modules/hardware.nix {"mtime":1753355731675,"ctime":1753355483194,"size":323,"etag":"3eik1jd3gad","orphaned":false,"typeId":""}
+{ config, pkgs, ... }:
+
+{
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+    extraPackages = with pkgs; [
+      intel-media-driver
+    ];
+  };
+
+  environment.variables.LIBVA_DRIVER_NAME = "iHD";
+
+  # Bootloader
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;  
+}{ config, pkgs, ... }:
+
+{
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+    extraPackages = with pkgs; [
+      intel-media-driver
+    ];
+  };
+
+  environment.variables.LIBVA_DRIVER_NAME = "iHD";
+
+  # Bootloader
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;  
+}

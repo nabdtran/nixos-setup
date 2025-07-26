@@ -1,0 +1,22 @@
+2025-07-25 22:22:11.030 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-25 22:22:11.044 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-25 22:22:11.045 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-25 22:22:11.566 [info] Started local extension host with pid 2524.
+2025-07-25 22:22:13.586 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-25 22:22:15.052 [info] [perf] Render performance baseline is 20ms
+2025-07-25 22:22:37.068 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/modules/hyprland.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/modules/hyprland.nix') file:///etc/nixos/modules/hyprland.nix
+2025-07-25 22:22:38.338 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///etc/nixos/modules/hyprland.nix
+2025-07-25 22:24:19.849 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/modules/hyprland.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/modules/hyprland.nix') file:///etc/nixos/modules/hyprland.nix
+2025-07-25 22:49:18.297 [error] [text file model] handleSaveError(22) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/modules/programs.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/modules/programs.nix') file:///etc/nixos/modules/programs.nix
+2025-07-25 23:04:42.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-25 23:04:42.186 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-25 23:04:42.188 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-25 23:04:42.714 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 54ms.
+2025-07-25 23:04:42.801 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 23ms.
+2025-07-25 23:04:42.914 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 52ms.
+2025-07-25 23:04:43.067 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 69ms.
+2025-07-25 23:04:45.906 [info] Started local extension host with pid 9404.
+2025-07-25 23:04:54.663 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-25 23:04:58.651 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-25 23:05:10.932 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 126ms.
+2025-07-25 23:05:14.292 [info] [perf] Render performance baseline is 596ms

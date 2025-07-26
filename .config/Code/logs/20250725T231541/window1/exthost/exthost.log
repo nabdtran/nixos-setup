@@ -1,0 +1,11 @@
+2025-07-25 23:15:44.574 [info] Extension host with pid 2312 started
+2025-07-25 23:15:44.574 [info] Skipping acquiring lock for /home/dandatran/.config/Code/User/workspaceStorage/e26fac2d262fbc174df8887a4042d214.
+2025-07-25 23:15:44.638 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-25 23:15:44.756 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-25 23:15:44.779 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-25 23:15:44.834 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 23:15:45.002 [info] Eager extensions activated
+2025-07-25 23:15:45.003 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 23:15:45.006 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 23:15:46.687 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-25 23:16:00.281 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onLanguage:nix'

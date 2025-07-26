@@ -1,0 +1,5 @@
+[Default Applications]
+image/jpeg=code.desktop
+
+[Added Associations]
+image/jpeg=code.desktop;
