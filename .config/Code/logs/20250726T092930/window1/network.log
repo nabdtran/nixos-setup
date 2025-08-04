@@ -1,7 +1,0 @@
-2025-07-26 09:29:34.014 [error] #1: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/alvarosannas/nix/latest - error GET Failed to fetch
-2025-07-26 09:29:34.015 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/jnoortheen/nix-ide/latest - error GET Failed to fetch
-2025-07-26 09:29:34.017 [error] #3: https://www.vscode-unpkg.net/_gallery/alvarosannas/nix/latest - error GET Failed to fetch
-2025-07-26 09:29:34.018 [error] #4: https://www.vscode-unpkg.net/_gallery/jnoortheen/nix-ide/latest - error GET Failed to fetch
-2025-07-26 09:29:34.021 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
-2025-07-26 09:29:34.147 [error] #6: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
-2025-07-26 09:34:34.151 [error] #7: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
